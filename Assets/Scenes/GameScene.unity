@@ -167,8 +167,8 @@ MonoBehaviour:
     m_keys: 01000000
     m_values:
     - _poolable: {fileID: 5434954480509117907, guid: 8fe9f7f2ca7ab304388854a34175d4f6, type: 3}
-      _initialSize: 20
-      _maxSize: 20
+      _initialSize: 40
+      _maxSize: 40
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +438,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec918a18a6e3ddb4692eb81ba748cb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _floorPool: {fileID: 1562476403}
+  _wallPool: {fileID: 424406988}
+  _obstaclePool: {fileID: 1640302545}
+  _exitPool: {fileID: 1348576739}
 --- !u!1 &1348576737
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +521,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5b230e1abadfe499671f0e1e685a3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _width: 8
+  _height: 8
+  _minObstacleCount: 5
+  _maxObstacleCount: 10
+  _minFoodCount: 0
+  _maxFoodCount: 0
 --- !u!4 &1382693694
 Transform:
   m_ObjectHideFlags: 0
